@@ -5,7 +5,7 @@ import os
 here = os.path.dirname(os.path.abspath(__file__))
 
 
-with open("README.md", 'r') as f:
+with open("README.md", 'r',encoding='utf8') as f:
     long_description = f.read()
 
 def _parse_requirements(path):
